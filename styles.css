@@ -1,12 +1,12 @@
 body {
-	background: #573F37;
+	background: #FFFFFF;
 	font-family: Georgia, serif;
 	margin: 0;
 	padding: 0;
 }
 
 h1 {
-	text-shadow: 2px 2px #573F37;
+	text-shadow: 2px 2px #000000;
 	position: relative;
 	z-index: 100;
 }
@@ -23,8 +23,7 @@ p, li, td {
 }
 
 .image {
-	border: 2px solid #573F37;
-	padding: 1px;
+	border: 2px solid #000000;
 	margin: 5px;
 }
 
@@ -104,7 +103,7 @@ table {
 }
 
 table, td {
-	border: 2px solid #573F37;
+	border: 2px solid #000000;
 	padding: 5px 15px 5px 0px;
 	text-align: left;
 }
@@ -117,7 +116,7 @@ aside {
 	float: left;
 	width: 216px;
 	padding: 15px;
-	border-left: 4px solid #573F37;
+	border-left: 4px solid #000000;
 }
 
 
