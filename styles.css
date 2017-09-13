@@ -31,7 +31,7 @@ p, li, td {
 header {	
 	text-align: left;
 	padding: 10px;
-	background: #D60A0B;
+	background: #FFFFFF;
 	color: white;
 	
 }
@@ -65,7 +65,7 @@ nav li {
 }
 
 nav a:link, nav a:visited {
-    background-color: #573F37;
+    background-color: #008cff;
     color: white;
     padding: 14px 25px;
     text-align: center;	
