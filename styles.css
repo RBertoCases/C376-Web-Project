@@ -1,0 +1,123 @@
+body {
+	background: #573F37;
+	font-family: Georgia, serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-shadow: 2px 2px #573F37;
+	position: relative;
+	z-index: 100;
+}
+
+p, li, td {
+	font-family: Verdana, sans-serif
+}
+#container {
+	position: relative;
+	width: 800px;
+	overflow: hidden;
+    margin: auto;
+   	background: white;
+}
+
+.image {
+	border: 2px solid #573F37;
+	padding: 1px;
+	margin: 5px;
+}
+
+
+header {	
+	text-align: left;
+	padding: 10px;
+	background: #D60A0B;
+	color: white;
+	
+}
+
+#headerImage img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 800px;
+	height: 162px;
+	opacity: 0.9;
+}
+
+
+nav {
+	position: relative;
+	left: 272px;
+	height: 43px;
+	margin: auto;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	float: left;
+	margin: 0 10px;
+	
+}
+
+nav a:link, nav a:visited {
+    background-color: #573F37;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;	
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+nav a:hover, nav a:active {
+    background-color: black;
+}
+
+nav a.current {
+	background-color: black;
+}
+
+nav a.current:hover {
+    cursor: default;
+}
+section {
+	float: left;
+	width: 520px;
+	padding: 15px;	
+}
+
+p img {
+	float: right;
+}
+#homeList ol a:link {
+	text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, td {
+	border: 2px solid #573F37;
+	padding: 5px 15px 5px 0px;
+	text-align: left;
+}
+
+a.secLink:link {
+	text-decoration: none;
+}
+
+aside {
+	float: left;
+	width: 216px;
+	padding: 15px;
+	border-left: 4px solid #573F37;
+}
+
+
