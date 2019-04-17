@@ -1,3 +1,4 @@
+
 body {
 	background: #573F37;
 	font-family: Georgia, serif;
@@ -6,8 +7,9 @@ body {
 }
 
 h1 {
-	text-shadow: 2px 2px #573F37;
-	position: relative;
+	text-shadow: 2px 2px black;
+	position: absolute;
+	left: 20px;
 	z-index: 100;
 }
 
@@ -16,7 +18,7 @@ p, li, td {
 }
 #container {
 	position: relative;
-	width: 800px;
+	width: auto;
 	overflow: hidden;
     margin: auto;
    	background: white;
@@ -31,28 +33,21 @@ p, li, td {
 
 header {	
 	text-align: left;
-	padding: 10px;
-	background: #D60A0B;
+	padding: 0px;
+	background-image:url("images/pr_pana.jpg");
 	color: white;
+	overflow: hidden; 
+	height: 162px;
 	
 }
 
-#headerImage img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 800px;
-	height: 162px;
-	opacity: 0.9;
-}
-
-
 nav {
-	position: relative;
-	left: 272px;
+	position: absolute;
+	left: auto;
+	top: 115px;
 	height: 43px;
-	margin: auto;
-	padding: 10px;
+	margin: -5px;
+	padding: -5px;
 }
 
 nav ul {
@@ -88,7 +83,7 @@ nav a.current:hover {
 }
 section {
 	float: left;
-	width: 520px;
+	width: 50%;
 	padding: 15px;	
 }
 
@@ -115,9 +110,9 @@ a.secLink:link {
 
 aside {
 	float: left;
-	width: 216px;
+	width: 40%;
 	padding: 15px;
-	border-left: 4px solid #573F37;
+	/*border-left: 4px solid #573F37;*/
 }
 
 
